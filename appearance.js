@@ -114,7 +114,6 @@
       { label: 'Sidebar collapsed', get: () => API.getSidebarCollapsed(), set: v => API.setSidebarCollapsed(v) },
       { label: 'Show chrome bar',   get: () => API.getClient().chrome,    set: v => API.setChrome(v) },
       { label: 'Hide Multiplayer',  get: () => API.getClient().hideMultiplayer, set: v => API.setHideMultiplayer(v) },
-      { label: 'Hide game version', get: () => API.getClient().hideVersion, set: v => API.setHideVersion(v) },
       { label: 'Hide game logo',    get: () => API.getClient().hideLogo,  set: v => API.setHideLogo(v) }
     ];
     toggles.forEach(t => {
